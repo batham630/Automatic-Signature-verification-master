@@ -23,6 +23,7 @@ HTML+CSS : Front-End
 Javascript : Front-End
 Ajax : Make Request to Web-Server
 SQLite3 : Database Management System
+
 About this Repository
 
 mysite folder is the main folder. The Web-App is based on Django framework. MNIST weights and SIGNET weights are the weights of the saved model. Inner mysite folder contains Django App settings and Sig_verify contains views, models, database and other important files required for app functioning. mysite/Templates/sig_verify contains all the front-end codes of our present Web-App. Test_Case_Document folder contains sample test case forms
@@ -32,6 +33,9 @@ mysite folder is the main folder. The Web-App is based on Django framework. MNIS
 How to Run a Sample Test Case
 
 Open the webpage at link: https://lit-waters-92367.herokuapp.com/
-Click on the “Update Mandate” button and choose a file. The file is nothing but a scanned as well as filled “Mandate Form” in the Test_Cases_Documents
-Upload any of the forms from the Test_Case_Document folder in this repository. Click on the Submit button. Refresh the page to test another form (refreshing is mandatory)
+
+Click on the “Update Mandate” button and choose a file. The file is nothing but a scanned as well as filled “Mandate Form” in the Test_Cases_Documents.
+
+Upload any of the forms from the Test_Case_Document folder in this repository. Click on the Submit button. Refresh the page to test another form (refreshing is mandatory).
+
 You can see the progress bar moving. Once all the code in the backend has been executed, the probability of two signature being matched gets displayed. It also displays the account number that has been fetched by the OCR Model
