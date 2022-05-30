@@ -32,10 +32,10 @@ mysite folder is the main folder. The Web-App is based on Django framework. MNIS
 
 How to Run a Sample Test Case
 
-Open the webpage at link: https://lit-waters-92367.herokuapp.com/
+  1. Open the webpage at link: https://lit-waters-92367.herokuapp.com/
 
-Click on the “Update Mandate” button and choose a file. The file is nothing but a scanned as well as filled “Mandate Form” in the Test_Cases_Documents.
+  2. Click on the “Update Mandate” button and choose a file. The file is nothing but a scanned as well as filled “Mandate Form” in the Test_Cases_Documents.
 
-Upload any of the forms from the Test_Case_Document folder in this repository. Click on the Submit button. Refresh the page to test another form (refreshing is mandatory).
+  3. Upload any of the forms from the Test_Case_Document folder in this repository. Click on the Submit button. Refresh the page to test another form (refreshing is  mandatory).
 
-You can see the progress bar moving. Once all the code in the backend has been executed, the probability of two signature being matched gets displayed. It also displays the account number that has been fetched by the OCR Model
+  4. You can see the progress bar moving. Once all the code in the backend has been executed, the probability of two signature being matched gets displayed. It also      displays the account number that has been fetched by the OCR Model
